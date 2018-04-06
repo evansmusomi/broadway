@@ -6,11 +6,11 @@ class PlaysController < ApplicationController
     end
     
     def new
-        @play = Play.new
+        @play = current_user.plays.new
     end
     
     def create
-        @play = Play.new(play_params)
+        @play = current_user.plays.new(play_params)
         if @play.save
             redirect_to root_path
         else
