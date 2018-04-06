@@ -2,6 +2,7 @@ class PlaysController < ApplicationController
     before_action :find_play, only:[:edit, :update, :show, :destroy]
     
     def index
+        @plays = Play.all.order("created_at DESC")
     end
     
     def new
