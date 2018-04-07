@@ -1,7 +1,8 @@
 class PlaysController < ApplicationController
     before_action :find_play, only: [:edit, :update, :show, :destroy]
     before_action :category_options, only: [:new, :create, :edit, :update]
-    
+    before_action :authenticate_user!, except: [:index, :show]
+
     def index
         if params[:category].blank?
             @plays = Play.all.order("created_at DESC")
