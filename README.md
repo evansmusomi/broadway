@@ -18,6 +18,9 @@ Each feature manipulates or displays information related to Plays.
 * _Delete Play_ : `User can delete their play`
 * _View Plays_ : `User can view a list of created plays`
 * _View Play_ : `User can view a play's details`
+* _Filter Plays_ : `User can filter plays by category`
+* _Review Play_ : `User can review a play`
+* _View Reviews_ : `User can see a play's reviews`
 
 ## Technology Stack
 
