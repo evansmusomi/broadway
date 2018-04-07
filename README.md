@@ -1,24 +1,33 @@
-# README
+# Broadway App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Broadway app lets you post, manage and view plays
 
-Things you may want to cover:
+## User Related Features
 
-* Ruby version
+Each feature manipulates or displays information related to Users.
 
-* System dependencies
+* _Signup_ : `Person can signup`
+* _Signin_ : `User can signin`
 
-* Configuration
+## Play Related Features
 
-* Database creation
+Each feature manipulates or displays information related to Plays.
 
-* Database initialization
+* _Create Play_ : `User can create a play`
+* _Update Play_ : `User can edit and update their play`
+* _Delete Play_ : `User can delete their play`
+* _View Plays_ : `User can view a list of created plays`
+* _View Play_ : `User can view a play's details`
 
-* How to run the test suite
+## Technology Stack
 
-* Services (job queues, cache servers, search engines, etc.)
+* Ruby on Rails 5.1.6
+* Ruby 2.5.1
 
-* Deployment instructions
+## Demo
 
-* ...
+_Coming Soon_ 😉
+
+## Credit(s)
+
+[Udemy Course by Yonathan Ayenew](https://www.udemy.com/8-beautiful-ruby-on-rails-apps-in-30-days/)
