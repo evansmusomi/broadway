@@ -13,6 +13,11 @@
  *= require_tree .
  *= require_self
  */
- 
- @import "bootstrap-sprockets";
- @import "bootstrap";
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+.play {
+  height: 350px;
+  width: 250px;
+  margin-bottom: 10px;
+}
